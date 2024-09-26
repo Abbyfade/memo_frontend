@@ -1,0 +1,236 @@
+.tableContainer {
+    /* max-width: 80rem; */
+    margin: 0 auto;
+    color: #000;
+    width: 100%;
+    min-width:(100vw- 10px );
+    height: 100vh;
+
+  }
+  
+  .tableHeader {
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+    display: flex;
+  }
+  
+  .searchContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    width: 100%;
+    padding: 10px;
+   
+  }
+ 
+
+  .debouncedInput{
+    padding: 18px;
+    /* background: #fff; */
+    outline: none;
+    border-bottom: 2px solid;
+    border: 1px solid #C5C5C5;
+    border-radius: 10px;
+    width: 30%;
+    transition: width 0.3s;
+    margin-left:-21.9px ;
+  }
+  
+  
+  .searchInput {
+    padding: 0.5rem;
+    background: transparent;
+    outline: none;
+    border-bottom: 2px solid;
+    width: 20%;
+    transition: width 0.3s;
+  }
+  
+  /* .searchInput:focus {
+    width: 33%;
+    border-color: #4f46e5; 
+  } */
+  
+  .table {
+    width: 100%;
+    text-align: left;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  
+  .tableHeader {
+    background: #EDF3FD; 
+  }
+  
+  .tableHeaderCell {
+    text-transform: capitalize;
+    padding: 15px 15px 15px 10px ;
+    text-align: center;
+  }
+  
+  .tableRowEven {
+    background: #fff; 
+  }
+  
+  .tableRowOdd {
+    background: #F9FBFC; 
+  }
+  
+ 
+  .tableInboxCell {
+    padding: 20px 5px;
+    text-align: center;
+  }
+  .tableCell {
+    padding: 20px 13px;
+    text-align: center;
+  }
+  
+  
+  .noRecordRow {
+    text-align: center;
+    
+  }
+  
+  .textBlue {
+    color: #3b82f6; /* text-blue-500 */
+  }
+  
+  .textRed {
+    color: #ef4444; /* text-red-500 */
+  }
+  
+  .paginationContainer {
+    display: flex;
+    justify-content: end;
+    margin-top: 0.5rem;
+    gap: 0.5rem;
+  }
+  
+  .paginationButton {
+    padding: 0.25rem;
+    border: 1px solid #d1d5db; /* border-gray-300 */
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    opacity: 1;
+    transition: opacity 0.3s;
+  }
+  
+  .paginationButton:disabled {
+    opacity: 0.3;
+  }
+  
+  .pageInfo {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+  
+  .goToPageContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+  
+  .pageInput {
+    border: 1px solid;
+    padding: 0.25rem;
+   
+  }  
+
+  .actionDropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdownToggle {
+    cursor: pointer;
+  }
+  
+  .dropdownMenu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdownItem {
+    padding: 8px 16px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .dropdownItem:hover {
+    background-color: #f1f1f1;
+  }
+
+  .categoryTop{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    width: 100%;
+  }
+  .catNew{
+    
+    padding: 10px;
+    border: 1px solid #f5f5f5;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    cursor: pointer;
+  }
+  .addCat{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+
+  }
+  .Catbtn{
+    padding: 10px;
+    border: 1px solid #C5C5C5;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    background-color: lightblue;
+    cursor: pointer;
+
+
+
+  }
+  .participantTable{
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+  }
+  .participantsTop{
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    width: 100%;
+  }
+  .participantContainer{
+    height: 90vh;
+  }
+  .documentNo :hover{
+    text-decoration: underline;
+    text-decoration-color: #3b82f6;
+  }
+  .sort{
+    cursor: pointer;
+  }
+  .DownloadBtn{
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    column-gap: 4px;
+    cursor: pointer;
+  }
+  .DownloadBtn:hover{
+    background-color: #3b82f6;
+  }
